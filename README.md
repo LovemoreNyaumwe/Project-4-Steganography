@@ -8,6 +8,8 @@ First you compile your .java files
 
 then you run it by typing,
 
-`java main`
+`java TextDetector hide_text.png`
+
+`java ImageDetector hide_image.png`
 
 where ImageDetector or TextDetector is the class with your main method, in the terminal.
