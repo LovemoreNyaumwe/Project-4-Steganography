@@ -12,4 +12,6 @@ then you run it by typing,
 
 `java ImageDetector hide_image.png`
 
-where ImageDetector or TextDetector is the class with your main method, in the terminal.
+where ImageDetector or TextDetector is the class 
+with your main method and hide_text.png or hide_image.png 
+is the input image, in the terminal.
