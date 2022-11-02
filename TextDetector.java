@@ -1,28 +1,32 @@
-package Lovemore;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.awt.image.WritableRaster;
 import java.io.File;
-import java.util.Arrays;
+import java.io.PrintWriter;
 
-public class Steg {
+public class TextDetector {
     static int count = 0;
 
     public static void main(String[] args) throws Exception {
-        BufferedImage image = ImageIO.read(new File("Lovemore/sampleImages/hide_text.png"));
+        BufferedImage image = ImageIO.read(new File("hide_text.png"));
         int width = image.getWidth();
         int height = image.getHeight();
         System.out.println("Height: " + height + " Width: " + width);
+
         WritableRaster raster = image.getRaster();
         StringBuilder header = new StringBuilder();
         StringBuilder message = new StringBuilder();
+
         processHeader(height, width, raster, header);
-        int charCount = Integer.parseInt(header.toString(), 2);
         ++count;
         processMessage(height, width, raster, message);
+
+        int charCount = Integer.parseInt(header.toString(), 2);
         String hiddenText = binaryToText(message.substring(32));
-        System.out.println(hiddenText.substring(0, charCount + 1));
+
+        PrintWriter writer = new PrintWriter("altered_text.txt", "UTF-8");
+        writer.println(hiddenText.substring(0, charCount));
+        writer.close();
     }
 
     public static void processMessage(int height, int width, WritableRaster raster, StringBuilder message) {
@@ -72,13 +76,11 @@ public class Steg {
     }
 
     public static String binaryToText(String binary) {
-        return Arrays.stream(binary.split("(?<=\\G.{8})"))/* regex to split the bits array by 8*/
-                .parallel()
-                .map(eightBits -> (char)Integer.parseInt(eightBits, 2))
-                .collect(
-                        StringBuilder::new,
-                        StringBuilder::append,
-                        StringBuilder::append
-                ).toString();
+        String[] binaryText = binary.split("(?<=\\G.{8})");
+        StringBuilder text = new StringBuilder();
+        for (String message: binaryText) {
+            text.append((char)Integer.parseInt(message, 2));
+        }
+        return text.toString();
     }
 }
