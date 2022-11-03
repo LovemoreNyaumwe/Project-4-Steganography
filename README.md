@@ -15,3 +15,5 @@ then you run it by typing,
 where ImageDetector or TextDetector is the class 
 with your main method and hide_text.png or hide_image.png 
 is the input image, in the terminal.
+
+The ImageDetector class has a method to inspect the bits in an image to see if another image is encoded in it and a method to get the hidden image.
