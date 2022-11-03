@@ -20,11 +20,11 @@ public class ImageDetector {
 
     public static void main(String[] args) throws Exception {
         
-        int[] sizeOfEncodedImage = getSizeEncodedImage(ImageIO.read(new File("hide_image.png")));
+        int[] sizeOfEncodedImage = getSizeEncodedImage(ImageIO.read(new File(args[0])));
         System.out.println("sizeOfEncodedImage: " + sizeOfEncodedImage[0] + " " + sizeOfEncodedImage[1]);
-        BufferedImage imgToSee = getInfo(ImageIO.read(new File("hide_image.png")), 0);
+        BufferedImage imgToSee = getInfo(ImageIO.read(new File(args[0])), 0);
         ImageIO.write(imgToSee, "png", new File("look0.png"));
-        BufferedImage img = getHiddenImage(ImageIO.read(new File("hide_image.png")), sizeOfEncodedImage[1], sizeOfEncodedImage[0], 0);
+        BufferedImage img = getHiddenImage(ImageIO.read(new File(args[0])), sizeOfEncodedImage[1], sizeOfEncodedImage[0], 0);
         ImageIO.write(img, "png", new File("hiddenImage.png"));
 
     }
