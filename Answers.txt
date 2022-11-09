@@ -1,0 +1,81 @@
+﻿Answers
+1. The other day I decided to clean my bedsheets for the first time in a long time. I found this bizarre implement under my pillow. Why is it there?
+One who sleeps with a naginata is a fool every night but one.
+2. Should I read the Tao Te Ching, or the Art of War?
+Tzu bits of wisdom:
+If you seek to find your way, read Lao.
+If someone is in your way, read Sun.
+3. What did Young Scott suggest investing in?
+Invest in Blockbuster. The internet is a fad.
+4. Did Young Scott see Covid coming?
+My prediction, distilled from various computer models:
+There will be two global health crises in the near future.
+The first will revolve around tide pods and will be spread through the Internet.
+The second will be worse.
+5. For as long as I can remember, I’ve been nervous when I’m near a merry-go-round if I have a bottle of water with me. Why is that?
+Water is hydrogen and oxygen.
+Oxygen is heavier than hydrogen.
+If you spin a glass of water the oxygen will be disproportionately pulled to the outside. If you spin it enough, the oxygen will separate from the hydrogen and then you've made myself a bomb.
+6. My friend (Ava, Zoey, Vivian, Eve,  Aisha, or Chaim, I don’t remember which) gave me some lemons. What should I do?
+Wisdom borrowed from Uncle Jimmy.
+When life gives you lemons:
+Throw those lemons on the ground, spit in life's eye, and refuse to leave until you get the damned limes you asked for the in first place.
+7. Did Young Scott know any good cocktail recipes?
+Cocktail recipe: "Any port in a storm"
+Mix equal parts Talisker Storm and any port.
+Pour over ice.
+8. Do I really need anything more than spellcheck in any circumstance?
+Spellcheck is not enough when ordering from a general-purpose online delivery company.
+Learned when I had to fix a circuit board with some smoldering iron.
+9. Did Young Scott record any good jokes?
+Every joke has a short setup, a lengthy middle, and a short punchline.
+Punchline: To which the rabbit replied "because r = a ^ ((a ^ b) & mask), obviously."
+10. Did Young Scott leave any red herrings?
+This is a red herring.
+11. Did Young Scott have any wisdom to share about watching pots?
+12. I lost a shopping list long ago. What was on it?
+* Milk
+* Eggs
+* 2 cups almond extract
+* Potatoes
+* Green beans
+* Horseradish
+* Neapolitan ice cream (tub)
+* Protein powder
+* Diet coke
+* Mentos
+* Orange juice (all pulp)
+* Oops! All Crunch Berries
+* Capn Crunch (regular)
+* Milk (again)
+* Altoids
+* Dog food
+13. What happened right after intermission?
+
+
+Extra Text
+1. Test hidden message 001.
+TODO: Remember to delete.
+Answer key to COSC383F22 final exam: https://tinyurl.com/mwd53d3j
+
+
+2. itertools is your friend.
+itertools.product, specifically.
+
+
+3. Note to future self:
+Buy shoes.
+People will gives you all sorts of questions if you don't buy shoes.
+Also, after buying the shoes, wear the shoes to avoid yet further questioning.
+
+
+4. At times you can kill two birds with one stone.
+If you do so, you will be short a stone and will have killed two birds.
+If you don't, you will have a stone, and two birds will keep their lives.
+
+
+5. Why say in four lines...
+WHAT YOU COULD SAY IN ONE?
+
+
+6. IT TAKES TOO LONG TO TYPE LIKE THIS
