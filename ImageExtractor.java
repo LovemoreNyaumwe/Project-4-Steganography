@@ -9,24 +9,24 @@ public class ImageExtractor {
     static int count = 0;
 
     public static void main(String[] args) throws Exception {
-//        File dir = new File("Images");
-////        showFiles(dir.listFiles());
-//        for (File file : Objects.requireNonNull(dir.listFiles())) {
-//            BufferedImage img = extractImage(ImageIO.read(new File(file.getAbsolutePath())));
-//            System.out.print(img == null);
-//            System.out.println(file.getName());
-//            if (img != null) {
-//                ImageIO.write(img, "png", new File("ThreeBits/" + "ReverseTBLRNormal" + file.getName()));
-//            }
-//            count = 0;
-////            extractText(file.getAbsolutePath(), file.getName());
-//        }
+        File dir = new File("Images");
+//        showFiles(dir.listFiles());
+        for (File file : Objects.requireNonNull(dir.listFiles())) {
+            BufferedImage img = extractImage(ImageIO.read(new File(file.getAbsolutePath())));
+            System.out.print(img == null);
+            System.out.println(file.getName());
+            if (img != null) {
+                ImageIO.write(img, "png", new File("ThreeBits/" + "ReverseTBLRNormal" + file.getName()));
+            }
+            count = 0;
+//            extractText(file.getAbsolutePath(), file.getName());
+        }
 
 //        BufferedImage img = magnifyImage(ImageIO.read(new File("hide_image.png")));
 //        ImageIO.write(img, "png", new File("magnifiedImage.png"));
 
-        BufferedImage img = extractImage(ImageIO.read(new File("/Users/lovemorenyaumwe/Desktop/security/Project-4-Steganography/Images/Lurking.png")));
-        ImageIO.write(img, "png", new File("extractedThreeBitsLurking.png"));
+//        BufferedImage img = extractImage(ImageIO.read(new File("/Users/lovemorenyaumwe/Desktop/security/Project-4-Steganography/Images/Lurking.png")));
+//        ImageIO.write(img, "png", new File("extractedThreeBitsLurking.png"));
 
 
     }
